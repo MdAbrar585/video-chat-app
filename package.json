@@ -1,0 +1,22 @@
+{
+  "name": "video-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "package_name": "^1.0.2",
+    "simple-peer": "^9.7.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "author": "Abrar",
+  "license": "ISC"
+}
